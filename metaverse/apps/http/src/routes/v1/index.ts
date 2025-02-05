@@ -15,11 +15,6 @@ router.get("/signin", (req, res) => {
         message:"signin",
     })
 });
-router.get("/login", (req, res) => {
-    res.json({
-        message:"login",
-    })
-});
 
 router.use("/space", spaceRouter);
 router.use("/admin", adminRouter);
