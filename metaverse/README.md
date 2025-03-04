@@ -83,5 +83,11 @@ Learn more about the power of Turborepo:
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
 
-
 check the git repository
+
+---
+
+This application is build and developed with:
+- node version: "22.13.0"
+
+---
