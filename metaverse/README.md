@@ -85,9 +85,9 @@ Learn more about the power of Turborepo:
 
 check the git repository
 
----
+------------------------------------------------------------------------------------------------
 
 This application is build and developed with:
 - node version: "22.13.0"
 
----
+------------------------------------------------------------------------------------------------
