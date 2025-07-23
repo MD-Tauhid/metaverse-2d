@@ -97,10 +97,20 @@ NOTE: This application is create with pnpm with typescript
 -typescript project cannot be execute/ run directly, JavaScript do.
 -so to run it we need to convert it into javascript code. with typescript compiler (TSC).
      CMD:
-          - npx tsc --init,
+          - npx tsc --init,  // to initialize typescript config
           - npm install typescript,
           - npm run build / tsc -b (to build the TS project to generate js code ) //write it in package.json as a build script
           - npm run start / node dist/index.js (to run the project)
 
+--------------------
+|        DB        |
+--------------------
+- Here i use prisma orm for the database setup.
+- We using postgraSql,
+- first run the postgres server to migrate the database,
+     cmd: 
+          - npm install prisma,
+          - npx prisma init,
+          - npx prisma migrate dev
 
 --------------------------------------------------------------------------------------------------------------------------------
