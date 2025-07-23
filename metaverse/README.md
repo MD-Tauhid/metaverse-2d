@@ -85,12 +85,12 @@ Learn more about the power of Turborepo:
 
 check the git repository
 
-------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 This application is build and developed with:
 - node version: "22.13.0"
 
-------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 NOTE: This application is create with pnpm with typescript
 
@@ -99,5 +99,8 @@ NOTE: This application is create with pnpm with typescript
      CMD:
           - npx tsc --init,
           - npm install typescript,
-          - npm run build / tsc -b (to build the TS project to generate js code )
+          - npm run build / tsc -b (to build the TS project to generate js code ) //write it in package.json as a build script
           - npm run start / node dist/index.js (to run the project)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
