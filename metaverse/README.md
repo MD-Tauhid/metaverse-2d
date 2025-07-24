@@ -108,6 +108,9 @@ NOTE: This application is create with pnpm with typescript
 - Here i use prisma orm for the database setup.
 - We using postgraSql,
 - first run the postgres server to migrate the database,
+     cmd:
+     - docker run -p 5432:5432 -e POSTGRES_PASSWORD=mypassword -d postgres
+
 - write te model into schema.prisma file,
      The steps are given below:
      cmd: 
@@ -117,5 +120,15 @@ NOTE: This application is create with pnpm with typescript
           4 - start the database locally
           5 - go to our .env file in db and write the right postgres URL
           6 - npx prisma migrate dev
+
+
+DATABASE_URL="postgresql://postgres:yourpassword@localhost:5432/yourdbname" demo url of .env file
+
+postgresql://       → Protocol for PostgreSQL
+postgres            → Username (default is "postgres")
+yourpassword        → Your PostgreSQL password
+localhost           → Host (since it’s running locally)
+5432                → Default PostgreSQL port
+yourdbname          → The name of your database
 
 --------------------------------------------------------------------------------------------------------------------------------
