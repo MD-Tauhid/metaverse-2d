@@ -108,9 +108,13 @@ NOTE: This application is create with pnpm with typescript
 - Here i use prisma orm for the database setup.
 - We using postgraSql,
 - first run the postgres server to migrate the database,
+     The steps are given below:
      cmd: 
-          - npm install prisma,
-          - npx prisma init,
-          - npx prisma migrate dev
+          1 - npm install prisma,
+          2 - npx prisma init,
+          3 - create a schema
+          4 - start the database locally
+          5 - go to our .env file in db and write the right postgres URL
+          6 - npx prisma migrate dev
 
 --------------------------------------------------------------------------------------------------------------------------------
