@@ -112,7 +112,7 @@ NOTE: This application is create with pnpm with typescript
      - docker run -p 5432:5432 -e POSTGRES_PASSWORD=mypassword -d postgres
 
 - write te model into schema.prisma file,
-     The steps are given below:
+     The steps are given below for prisma:
      cmd: 
           1 - npm install prisma,
           2 - npx prisma init,
